@@ -7,7 +7,10 @@
     "crypto-js": "^4.2.0",
     "express": "^4.19.2",
     "sha256": "^0.2.0",
-    "uuid": "^9.0.1"
+    "uuid": "^9.0.1",
+    "netlify-cli": "^17.17.1",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
   },
   "type": "module",
   "scripts": {
