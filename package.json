@@ -1,0 +1,19 @@
+{
+  "name": "agev_onboarding_server",
+  "dependencies": {
+    "@digitalbazaar/ed25519-verification-key-2020": "^4.1.0",
+    "base58-universal": "^2.0.0",
+    "cborg": "^4.2.0",
+    "crypto-js": "^4.2.0",
+    "express": "^4.19.2",
+    "sha256": "^0.2.0",
+    "uuid": "^9.0.1"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2"
+  }
+}
