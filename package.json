@@ -14,7 +14,8 @@
   },
   "type": "module",
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node functions/app.mjs",
+    "build": "netlify deploy --prod"
   },
   "devDependencies": {
     "@types/crypto-js": "^4.2.2"
